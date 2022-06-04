@@ -1,12 +1,6 @@
-function component() {
-  const element = document.createElement('div');
+// import "./style.css";
+// import css from "./style.css";
+import "./css/common.scss"
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-  return element;
-}
-
-document.body.appendChild(component());
-
-console.log('Це імпорт JS')
+console.log("111")
